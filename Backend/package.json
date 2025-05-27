@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "\"Feat:Parsing and handling of hte CSV Files.\"",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "express": "^5.1.0",
+    "multer": "^2.0.0"
+  }
+}
