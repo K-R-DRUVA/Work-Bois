@@ -1,16 +1,17 @@
-# -nt3rnSh1p-w0r7
-Tech STACK:
--BACKEND:
--NODEJS
--EXPRESS
--PYTHON
--FRONTEND:
--REACTJS
--BOOTSTRAP
--TYPESCRIPT
-_NODEJS
+# Internship Project
 
-_EXPRESS
+## Tech Stack
+
+### Backend
+- Node.js
+- Express
+- Python
+
+### Frontend
+- React.js
+- Bootstrap
+- TypeScript
+
 ## Backend Features
 
 ### Data Processing
@@ -22,13 +23,15 @@ _EXPRESS
 - Threshold-based tracking
 
 ### Alerting System
-- Rule-based alert generation
-  - One: Temperature exceeds 50°C   -->[TEMP ALERT]
-  - Two: Strain exceeds 5000 -->[STRAIN ALERT]
-  - Three: Temperature exceeds 50°C and strain exceeds 5000 -->[TEMP AND STRAIN ALERT]  
-  - Automated notification system
+- Rule-based alert generation:
+  - One: Temperature exceeds 50°C → **[TEMP ALERT]**
+  - Two: Strain exceeds 5000 → **[STRAIN ALERT]**
+  - Three: Temperature exceeds 50°C and strain exceeds 5000 → **[TEMP AND STRAIN ALERT]**
+- Automated notification system
 
-## WORKFLOW
+## Workflow
+
+```
 📦 Folder of CSVs
    |
 🟢 Node.js API
@@ -41,3 +44,5 @@ _EXPRESS
    ├── Applies thresholds
    ├── Generates plots or alerts
    └── Sends result as JSON or image path
+```
+        
